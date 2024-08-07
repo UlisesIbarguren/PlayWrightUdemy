@@ -22,5 +22,5 @@ test('parametrized methods', async({page}) => {
     await pm.navigateTo().formLayoutsPage()
     await pm.onFormLayoutsPage().submitUsingTheGridFormWithCredentialsAndSelectOption('test@test.com', 'Welcome1', 'Option 1')
     await pm.navigateTo().datePickerPage()
-    await pm.onDatePickerPage().selectCommonDatePickerDateFromToday(10)
+    await pm.onDatePickerPage().selectCommonDatePickerDateFromToday(30)
 })
